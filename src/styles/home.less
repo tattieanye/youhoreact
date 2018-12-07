@@ -1,0 +1,54 @@
+@import url('./comment/main.less');
+.App {
+    .index-header{
+      .h(56);
+      .w(375);
+      background: #fff;
+    }
+    .index-body{
+      .h(610);
+      .w(375);
+      background:url('../img/indexbg.jpg') no-repeat center center;
+      background-size:cover;
+      .index-nav{
+        float:left;
+        .h(330);
+        .w(375);
+        // background: #DCDCDC;
+        margin-top:145px;
+        ul{
+          text-align:center;
+          display:block;
+          .h(330);
+          .w(375);
+          
+          li{
+            text-align:center;
+            .lh(48);
+            display:inline-block;
+            .h(48);
+            .w(240);
+            color:#fff;
+            .fs(22);
+            background: black;
+            border:5px solid #fff;
+            margin-bottom: 23px;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  
+  
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

@@ -1,0 +1,39 @@
+@import url('../styles/comment/main.less');
+.slider{
+    
+    ul{
+        .h(666);
+        .w(316);
+        background: #fff;
+        position: fixed;
+        z-index:9999;
+        left:0;
+        top:0;
+        li{
+            .h(50);
+            .w(316);
+            .fs(14);
+            border-bottom: 1px solid #DCDCDC;
+            span{
+                float:left;
+                display:inline-block;
+                .h(50);
+                .w(100);
+                .lh(50);
+                text-align: center;
+                img{
+                    margin-top:10px;
+                }
+            }
+        }
+    }
+    .mask {
+        top:0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        z-index:1222;
+      }
+}
